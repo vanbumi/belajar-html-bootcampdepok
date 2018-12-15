@@ -3,11 +3,141 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Belajar HTML with MedioCademy</title>
+	
+	<link rel="stylesheet" href="style.css">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		
 </head>
+
 <body>
-	<h1>Belajar HTML</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facere sapiente suscipit ad doloremque placeat totam aliquid aperiam laudantium assumenda dolores, illo ullam, id cupiditate qui blanditiis, ut labore sequi.</p>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">CodeBootcamp</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+    <div class="jumbotron">
+			<h1 class="display-4">Belajar HTML</h1>
+			
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<a class="btn btn-danger btn-lg btn-block" href="http://courses.mediocademy.com" target="_blank" role="button">Learn more</a>
+		</div>
+ 
+	<p class="par" height="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facere sapiente suscipit ad doloremque placeat totam aliquid aperiam laudantium assumenda dolores, illo ullam, id cupiditate qui blanditiis, ut labore sequi.</p>
 	
 	<h2>Membuat struktur HTML</h2>
+	
+	<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="/img/hidup-mudah.jpg" alt="Card image cap" height="280" width="100">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+	<ol>
+		<li>List One</li>
+		<li>List Two</li>
+		<li>List Three</li>
+		<li>List Four</li>
+		<li>List Five</li>
+	</ol>
+	<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi sequi, veritatis delectus perspiciatis incidunt, omnis corporis accusamus facere perferendis et labore saepe tenetur, cumque sunt architecto. Eligendi reprehenderit, sed in.</p>
+	
+	<h2 id="about">About</h2>
+	
+	<img src="https://graph.facebook.com/1376917177/picture?height=200" alt="my pic fg">
+	
+	<h3>Cara mendapatkan id facebook</h3>
+	<p>https://findmyfbid.in</p>
+	
+	<h2>Membuat Table</h2>
+	
+	<p>Materi yang dipelajar</p>
+	<table border="1" cellspacing="0" cellpadding="10">
+		<tr>
+			<th>Git</th>
+			<th>HTML</th>
+			<th>CSS</th>
+		</tr>
+		<tr>
+			<td>done</td>
+			<td>doing</td>
+			<td>not ye</td>
+		</tr>
+		
+	</table>
+	
+	<h2>Menyisipkan video</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/IYxXaKpOp7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<h2 id="contact">Contact us</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dicta eum, dolores, commodi sequi, voluptatem nemo at alias expedita suscipit amet deserunt maxime ipsam esse modi laudantium tenetur sapiente corporis?</p>
+	
+	<br><br><br>
+	
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Bottom navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown10">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
